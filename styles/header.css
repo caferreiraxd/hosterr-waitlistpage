@@ -1,0 +1,87 @@
+.container-menu {
+  display: flex;
+  padding: 0.9em;
+  justify-content: space-between;
+}
+
+.container-logo-button {
+  display: flex;
+  align-items: center;
+}
+
+.container-logo {
+  margin-right: 0.8em;
+}
+
+.logo__button {
+  text-decoration: none;
+  font-size: 8px;
+  font-weight: 600;
+  background: var(--colorGradient);
+  color: var(--white);
+  padding: 1em 2em;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.menu-hamburguer {
+  width: 25px;
+  height: 25px;
+  background: url(../img/menu.svg) no-repeat;
+  display: inline-block;
+  background-position: center;
+}
+
+.menu-container, .login-container {
+  display: none;
+}
+
+@media (min-width:720px) {
+
+  .container-menu {
+    padding: 2em;
+  }
+
+  
+}
+
+
+@media (min-width:1440px) {
+
+  .container-menu {
+    padding: 1.5em 2em;
+  }
+
+  .menu-hamburguer {
+    display: none;
+  }
+
+  .menu-container, .login-container {
+    display: block;
+  }
+
+  .menu-container, .login-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-link {
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 18px;
+    padding: 0 1em;
+  }
+
+  .login-button {
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--blue); 
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+
+  
+}

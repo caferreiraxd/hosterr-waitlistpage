@@ -1,0 +1,21 @@
+@import url(../styles/header.css);
+@import url(../styles/main.css);
+
+:root {
+  --black: #000000;
+  --grey: #525252;
+  --blue: #4977EA;
+  --white: #FFFFFF;
+  --colorBackground: #F9F4E8;
+  --colorGradient: linear-gradient(90deg, rgba(234,177,82,1) 0%, rgba(234,83,116,1) 100%);
+
+  --fontPrimary: 'Playfair Display';
+  --fontSecundary: 'Lato';
+}
+
+body {
+  background-color: var(--colorBackground);
+  font-family: var(--fontSecundary);
+  font-family: 16px;
+  color: var(--grey);
+}
